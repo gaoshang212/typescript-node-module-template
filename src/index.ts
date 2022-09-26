@@ -1,0 +1,1 @@
+export { testfunc } from "./example";
