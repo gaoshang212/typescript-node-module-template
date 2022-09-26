@@ -1,7 +1,7 @@
 {
   "name": "typescript-node-module-template",
   "version": "0.0.1",
-  "description": "a template for node module in typescirpt",
+  "description": "a template for node module in typescript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "module": "./lib/esm/index.js",
@@ -11,8 +11,13 @@
     "build:esm": "tsc --module ESNext --outDir ./lib/esm",
     "test": "npm run build:cjs && tape -r ts-node/register tests/**/*.ts"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "node",
+    "module",
+    "template"
+  ],
+  "author": "gaoshang212",
   "license": "MIT",
   "devDependencies": {
     "@types/tape": "^4.13.2",
